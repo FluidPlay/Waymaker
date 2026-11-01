@@ -131,7 +131,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "2D Skybox",
-      "Position": "0,0,0",
+      "Position": "727.278748,457.779968,-6.68764114E-05",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "skybox",
@@ -158,7 +158,7 @@
             "Id": "e05fd285-6edd-4c7b-9b31-8a41a0265c3e",
             "Path": "materials/skybox/skybox_day_01.vmat"
           },
-          "Tint": "1,1,1,1"
+          "Tint": "0.79535,0.77685,0.77685,1"
         },
         {
           "__type": "Sandbox.EnvmapProbe",
@@ -168,11 +168,11 @@
           "__version": 1,
           "BakedTexture": null,
           "Bounds": {
-            "Mins": "-512,-512,-512",
-            "Maxs": "512,512,512"
+            "Mins": "-1057.42517,-835.234619,-512",
+            "Maxs": "1776.20496,1597.4491,512"
           },
           "DelayBetweenUpdates": 0.1,
-          "Feathering": 0.02,
+          "Feathering": -21.333332,
           "FrameInterval": 5,
           "MaxDistance": 512,
           "Mode": "Baked",
@@ -201,9 +201,9 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Plane",
-      "Position": "0,0,0",
+      "Position": "888.945068,513.015442,0.000127613544",
       "Rotation": "0,0,0,1",
-      "Scale": "5,5,5",
+      "Scale": "21.2969284,16.1496239,5",
       "Tags": "",
       "Enabled": true,
       "NetworkMode": 2,
@@ -279,8 +279,8 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Camera",
-      "Position": "-267.451996,-379.653015,297.790314",
-      "Rotation": "-0.144858196,0.286023915,0.427963108,0.845017076",
+      "Position": "405.070618,-515.436523,519.494385",
+      "Rotation": "-0.156207487,0.205943465,0.583786488,0.769662201",
       "Scale": "1,1,1",
       "Tags": "",
       "Enabled": true,
@@ -372,6 +372,138 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "1ed5f24a-570d-4da5-b9fe-5759ec8fbcc6",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Waymaker",
+      "Position": "227.085861,270.496338,1.99977636",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "FluidPlay.Waymaker.Waymaker",
+          "__guid": "4a8fc7c6-a3bc-4ab4-9a20-29af41f39b36",
+          "__enabled": true,
+          "Flags": 0,
+          "CapLength": 342.0478,
+          "CapTexture": true,
+          "CapTextureEnd": {
+            "Id": "5f1e25d7-a7b9-4794-8000-c872b87dacaa",
+            "Path": "waymaker/materials/m_desertpath_botcap.vmat"
+          },
+          "CapTextureStart": {
+            "Id": "952b8e45-f079-4a28-bb12-eb4b9a0810b8",
+            "Path": "waymaker/materials/m_desertpath_topcap.vmat"
+          },
+          "DynamicVTileLength": 500,
+          "DynamicVTiling": false,
+          "HorizontalPadding": 0.28321677,
+          "HorizontalTiling": 1,
+          "Loop": false,
+          "MinimumEdgeWidth": 0.01,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SourceMaterial": {
+            "Id": "48f48c6c-3c14-4162-aea6-dc4b10b4f209",
+            "Path": "waymaker/materials/desertpath_1024_alpha.vmat"
+          },
+          "Spline": {
+            "Points": [
+              {
+                "Pos": "0,0,0",
+                "In": "-251.835831,-119.406967,-0.000279379194",
+                "Out": "251.835831,119.406967,0.000279379194",
+                "Mode": "Mirrored"
+              },
+              {
+                "Pos": "670.253357,-5.49678278,-8.12113285E-06",
+                "In": "-174.601562,-84.0747986,-5.34455012E-06",
+                "Out": "174.601562,84.0747986,5.34455012E-06"
+              },
+              {
+                "Pos": "1047.60938,504.448792,3.20672989E-05",
+                "In": "-62.8926697,-84.9909363,-6.69807196E-06",
+                "Out": "62.8926697,84.9909363,6.69807196E-06"
+              }
+            ]
+          },
+          "SurfaceWidth": 150,
+          "VerticalTiles": 2
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "b9b88b33-bca0-4a55-87f9-f38a56805e84",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Waymaker Surface",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "waymaker_generated_mesh,world",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "7c091513-4666-440a-a115-b348e9c3711b",
+              "__enabled": true,
+              "Flags": 0,
+              "ColliderFlags": 0,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Elasticity": null,
+              "Friction": null,
+              "HideInGame": false,
+              "IsTrigger": false,
+              "Mesh": {
+                "Data": {
+                  "$blob": "86cbbeb9-45a8-8f5e-bce6-b09ecba590d3"
+                },
+                "Materials": [
+                  "waymaker/materials/m_desertpath_topcap.vmat",
+                  "waymaker/materials/desertpath_1024_alpha.vmat",
+                  "waymaker/materials/m_desertpath_botcap.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "RollingResistance": null,
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {

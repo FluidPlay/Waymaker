@@ -1,8 +1,8 @@
 {
-  "Title": "Waymaker2",
+  "Title": "Waymaker",
   "Type": "addon",
   "Org": "local",
-  "Ident": "waymaker2",
+  "Ident": "waymaker",
   "Schema": 1,
   "IncludeSourceFiles": false,
   "Resources": null,
