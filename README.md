@@ -38,3 +38,9 @@ The game and editor assemblies must include their respective Code and Editor fol
 The three materials use the path and cap textures shown above. Keep their asset paths or re-point the materials' texture slots. The mask is optional and is not referenced by the current materials. Do not copy compiled assets (`*.vmat_c`, `*.shader_c`, `*.meta`, or `*.generated.vtex_c`); the s&box editor generates them on import.
 
 See `Code/Waymaker/README.md` for setup and usage details.
+
+## FAQ
+
+Q. I can't find how to adjust the tangent handles for the first control point
+
+A. That's a side effect of S&box native spline control, which Waymaker uses. Just select the second control point (or last, if you only got two) and use the back arrow in the spline panel to select the first control point, instead of the Waymaker root. Then you'll be able to select and tweak the first control point out handle.
