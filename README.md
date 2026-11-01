@@ -1,5 +1,13 @@
 # Waymaker
-Path creation tool for the S&box game engine
+Path creation tool for the S&box game engine. It's much simpler than 'RoadTool' to set up and use, and tailored for paths with feathered edges at its ends.
+
+<img width="512" height="512" alt="waymaker-logo" src="https://github.com/user-attachments/assets/d7b695b5-e2b4-482d-acfd-07c0f5b1db6b" />
+
+<img width="1289" height="793" alt="waymaker_sshot" src="https://github.com/user-attachments/assets/a54bdbfe-06e2-41b8-9ac8-0abcab503a8b" />
+
+## Quick Start Guide
+
+https://youtu.be/FTthPa83BJw
 
 ## Installation
 
